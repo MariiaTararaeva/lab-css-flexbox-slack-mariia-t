@@ -8,3 +8,128 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000; 
+    background-color: #F3EAE2; 
+  }
+  
+  h1, h2, h3 {
+    color: #191817; 
+  }
+  
+  a {
+    color: #2E71A6; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  nav {
+    display: flex;
+    flex-direction: column; /* Default: Stack items vertically for mobile */
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #540B51; /* Background purple */
+    color: #F3EAE2; /* Text ivory */
+  }
+  
+  nav img {
+    max-height: 40px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+  
+  nav ul li a {
+    color: #F3EAE2; 
+    font-weight: bold;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: #F3EAE2;
+    cursor: pointer;
+  }
+  header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header div h1 {
+    font-size: 2rem; 
+    color: #191817; 
+  }
+  
+  header div p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  main section p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #000000; 
+  }
+  
+  main section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  main section div img {
+    max-height: 50px;
+    margin: 10px;
+  }
+  footer {
+    background-color: #540B51; 
+    color: #F3EAE2; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  footer ul li {
+    margin: 10px 0;
+  }
+  
+  footer ul li a {
+    color: #454245; 
+  }
+  
